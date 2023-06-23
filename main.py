@@ -13,4 +13,4 @@ def CloudFunction_For_CICD_Test(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'End2End CICD demo for Nick'
+        return f'Cloudbuild CICD demo for kalash'
